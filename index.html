@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">drndme.</div>
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+          
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I design & develop beautiful and functional websites.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="img/me2.jpg" alt="Dyana Rose" class="about-image">
+            <p>Hi! I'm <strong>Dyana Rose</strong>, 3rd year college student seeking for an internship as a front-end developer and UI Designer to apply my web development and UI design skills. I aim to gain hands-on experience creating user-friendly, visually appealing websites while learning from industry professionals.</p>
+        </div>
+    </section>
+    
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        
+        <!-- Icon-Based Skills -->
+        <div class="icon-skills">
+            <div class="icon-skill">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="icon-skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="icon-skill">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="icon-skill">
+                <i class="fa-brands fa-figma"></i>
+                <p>Figma</p>
+            </div>
+            <div class="icon-skill">
+                <i class="fa-solid fa-paintbrush"></i>
+                <p>Design</p>
+            </div>
+            <div class="icon-skill">
+                <i class="fa-solid fa-cubes"></i>
+                <p>Prototyping</p>
+            </div>
+        </div>
+    </section>
+    
+    
+        <!-- Progress Bar Skills -->
+        <div class="progress-skills">
+            <h3>Soft Skills</h3>
+            <div class="skill">
+                <h3>Teamwork</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Adaptability</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Work Ethic</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%;">100%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>I build modern, responsive, and user-friendly websites.</p>
+            </div>
+            <div class="service ui-design">
+                <h3>UI Design</h3>
+                <p>Creating beautiful and appealing UI designs.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+          <div class="project-card">
+              <img src="img/mental.jpg" alt="Project One Screenshot">
+              <h3>PMHJ</h3>
+              <p>A website designed to helps students organize schedules and improve habits.</p>
+          </div>
+          <div class="project-card">
+              <img src="img/aralista.jpg" alt="Project Two Screenshot">
+              <h3>Aralista</h3>
+              <p>A website designed to helps students organize schedules and improve habits.</p>
+          </div>
+          <div class="project-card">
+            <img src="img/sfdf.jpg" alt="Project Two Screenshot">
+            <h3>SIA Project</h3>
+            <p>The SIA Project is a web application that stores and manages student information.</p>
+        </div>
+        <div class="project-card">
+          <img src="img/designfigma.jpg" alt="Project Two Screenshot">
+          <h3>Milk Tea Design</h3>
+          <p>An interactive UI design for a mobile app.</p>
+      </div>
+      <div class="project-card">
+        <img src="img/prototype.jpg" alt="Project Two Screenshot">
+        <h3>Agriconnect</h3>
+        <p>A mobile prototype for our capstone project.</p>
+      </div>
+      <div class="project-card">
+        <img src="img/another graphics.jpg" alt="Project Two Screenshot">
+        <h3>UI Anime Design</h3>
+        <p>A UI Anime Design for Web Apps combines anime-inspired visuals with modern UI elements.</p>
+    </div>
+      </div>
+  </section>
+  
+  
+    
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <p>Feel free to reach out through any of the following:</p>
+    
+    <div class="contact-info">
+        <a href="mailto:dynabibat@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i> Email: dynabibat@gmail.com
+        </a>
+        <a href="https://www.facebook.com/lokiers" target="_blank" class="contact-item">
+            <i class="fab fa-facebook"></i> Facebook: facebook.com/lokiers
+        </a>
+        <a href="tel:+1234567890" class="contact-item">
+            <i class="fas fa-phone"></i> Phone: +639272846633
+        </a>
+    </div>
+</section>
+
+
+    
+    <footer>
+        <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+<script src="script.js"></script>
+
+</body>
+</html>
